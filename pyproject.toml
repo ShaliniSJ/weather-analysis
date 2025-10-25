@@ -1,0 +1,17 @@
+[project]
+name = "weather-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "apache-airflow>=3.1.0",
+    "geopy>=2.4.1",
+    "kaggle>=1.7.4.5",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+]
